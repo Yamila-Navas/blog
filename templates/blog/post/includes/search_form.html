@@ -1,0 +1,7 @@
+<div id="post-search">
+    <h1 class="title-search">Search for posts</h1>
+    <form class="form-search" action="{% url "blog:post_search" %}" method="get">
+        {{ form.as_p }}
+        <input id="btn-search" type="submit" value="Search">
+    </form>
+</div>

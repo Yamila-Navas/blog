@@ -1,0 +1,32 @@
+🔧 INSTALACIÓN DE PYTHON:
+python3 --version
+Python 3.12.3
+
+
+🔧 CREACIÓN DE UN ENTORNO VIRTUAL DE PYTHON
+python -m venv my_env
+source my_env/bin/activate
+
+
+🔧 INSTALACIÓN DE DJANGO
+python -m pip install Django~=5.0.4
+python -m django --version
+
+
+🔧 CREACIÓN Y CONFIGURACIÓN DE UN PROYECTO DE DJANGO
+django-admin startproject mysite
+python manage.py runserver
+
+
+🔧 CREACIÓN DE UNA APLICACIÓN DE DJANGO
+django-admin startapp myapp
+
+
+🔧 CREACIÓN Y APLICACIÓN DE MIGRACIONES DE MODELOS
+cd mysite
+python manage.py migrate
+python manage.py makemigrations
+
+o por aplicacion:
+python manage.py makemigrations blog
+python manage.py sqlmigrate blog 0001
