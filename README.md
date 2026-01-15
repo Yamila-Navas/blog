@@ -63,7 +63,7 @@ Esto permite búsquedas más precisas, eficientes y escalables.
 ## ⚙️ Instalación
 
 ```bash
-git clone https://github.com/
+git clone https://github.com/Yamila-Navas/blog.git
 cd tu-repo
 python -m venv env
 source env/bin/activate
